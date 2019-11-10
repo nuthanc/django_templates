@@ -1,16 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Other</title>
-</head>
-
-<body>
-    <h1>I am the other page</h1>
-    <a href="{% url 'basic_app:relative' %}">Path to relative</a>
-</body>
-
-</html>
+{% extends "basic_app/base.html" %}
+    {% block body_block %}
+        <h1>I am the other page</h1>
+        <a href="{% url 'basic_app:relative' %}">Path to relative</a>
+    {% endblock %}
