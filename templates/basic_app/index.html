@@ -3,6 +3,6 @@
 
     {% block body_block %}
         <h1>I am the index file </h1>
-        <h3>{{ text|upper }}</h3>
+        <h3>{{ text|cut:"hello" }}</h3>
         <h3>{{ number|add:"5" }}</h3>
     {% endblock %}

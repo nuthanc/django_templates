@@ -8,3 +8,4 @@ Commits :
 * The commit after "First Commit" is where relative url commit is made
 * Template Inheritance
 * Template filter in index.html
+* Custom filter
