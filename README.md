@@ -9,3 +9,5 @@ Commits :
 * Template Inheritance
 * Template filter in index.html
 * Custom filter
+
+For forms go to link: https://github.com/nuthanc/basicforms.git
